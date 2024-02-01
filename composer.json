@@ -1,0 +1,6 @@
+{
+    "name": "quint/mangaszone",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

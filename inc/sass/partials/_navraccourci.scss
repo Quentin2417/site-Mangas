@@ -1,0 +1,53 @@
+.racnav {
+    display: flex;
+    background-color: #7694FF;
+    justify-content: space-around;
+    padding: 12px 14px;
+}
+.racnav a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.racnav a.icon{
+  display: none;
+  text-decoration: none;
+}
+
+ @media screen and (max-width: 981px) {
+    .racnav {
+    background-color: #7694FF;
+    display: flex;
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .racnav a {
+    display: none;
+  }
+  .racnav a.icon {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 981px) {
+  .racnav.responsive {
+    position: relative;
+    min-height: 92vh;
+    }
+    .racnav.responsive a.icon {
+      position: absolute;
+      right: 15px;
+      top: 6px;
+    }
+    .racnav.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }
+@media screen and (max-width: 981px){
+  
+}

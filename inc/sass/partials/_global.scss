@@ -1,0 +1,202 @@
+header{
+    position: fixed;
+    width: 100%;
+}
+body{
+    display: grid;
+    max-height: 100vh;
+    grid-template-rows: 0fr 1fr 0fr;
+    font-family: 'Permanent Marker', cursive;
+}
+#mycouv {
+    width: 100%;
+}
+#mycouv a {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    font-size: 10vh;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(250, 4, 4), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(38, 38, 240);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px){
+    #mycouv a {
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        font-size: 5vh;
+        color: white;
+        text-shadow: 1px 1px 2px rgb(250, 4, 4), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(38, 38, 240);
+        align-items: center;
+        justify-content: center;
+        text-decoration: none; 
+    }
+}
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.couv a:nth-child(1){
+    background: url("/inc/img/couverture/couv_accueil/couv_one_piece.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+.couv a:nth-child(2){
+    background: url("/inc/img/couverture/couv_accueil/couv_dragon_ball.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover ;
+    margin-bottom: 15px;
+}
+.couv a:nth-child(3){
+    background: url("/inc/img/couverture/couv_accueil/couv_naruto.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover ;
+    margin-bottom: 15px;
+}
+.couv a:nth-child(4){
+    background: url("/inc/img/couverture/couv_accueil/couv_demon_slayer.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover ;
+    margin-bottom: 15px;
+}
+.couv a:nth-child(5){
+    background: url("/inc/img/couverture/couv_accueil/couv_HxH.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover ;
+    margin-bottom: 15px;
+}
+.couv a:nth-child(6){
+    background: url("/inc/img/couverture/couv_accueil/couv_snk.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover ;
+    margin-bottom: 15px;
+}
+.couv a:nth-child(7){
+    background: url("/inc/img/couverture/couv_accueil/couv_bleach.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover ;
+    margin-bottom: 15px;
+}
+.couv a:nth-child(8){
+    background: url("/inc/img/couverture/couv_accueil/couv_jujutsu_kaisen.jpg");
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover ;
+}
+
+.logo img{
+    height: 6vh;
+    margin-top: 5px; 
+    margin-left: 20px;
+}
+.logo{
+    display: block;
+}
+#myban{
+    width: 100%;
+}
+#myban img{
+    width: 100%;
+    margin-top: 80px;
+}
+.hist-mangas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hist-mangas h1{
+    font-size: 5vh;
+}
+@media screen and (max-width: 768px){
+    .hist-mangas {
+        font-size: 20px;
+    }
+}
+.condutil{
+    margin-top: 90px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cookie{
+    margin-top: 150px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.newcompte{
+    background-color: rgb(206, 206, 206);
+}
+.figurine_one_piece{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+}
+.figurine_one_piece ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 130px;
+    grid-row-gap: 30px;
+}
+.figurine_one_piece img {
+    height: 300px;
+    display: block;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+}
+.figurine{
+    min-width: 70px;
+}
+.figurine p {
+    font-size: 17px;
+}
+@media screen and (max-width: 981px){
+    .figurine_one_piece ul{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+    }
+}
+@media screen and (max-width: 480px){
+    .figurine_one_piece ul{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+    }
+}
+.description{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+}
+.description h2{
+    font-size: 20px;
+}
+.description p{
+    font-size: 14px;
+    color: #595959;
+}
+.description label{
+    font-size: 14px;
+    color: #595959;
+}
+.description i{
+    font-size: 14px;
+    color: #595959;
+}

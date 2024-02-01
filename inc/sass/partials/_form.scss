@@ -1,0 +1,75 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vh;
+}
+h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5vh;
+}
+.inscription{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 310px;
+    border: 2px solid black; 
+    padding: 10px;
+    margin-top: 85px;
+    text-decoration: none;
+}
+.connexion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 310px;
+    border: 2px solid black; 
+    padding: 20px;
+    margin-top: 150px;
+    text-decoration: none;
+}
+.conditions{
+    display: flex;
+    font-size: 7px;
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.cadre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 310px;
+    border: 2px solid black; 
+    padding: 20px;
+    margin-top: 150px;
+    text-decoration: none;
+}
+.modification{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 310px;
+    border: 2px solid black; 
+    padding: 20px;
+    margin-top: 115px;
+    text-decoration: none;
+}
+button {
+    background-color: #48F0F6;
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 18px;
+}
+span{
+    margin-top: 16px;
+}
+
